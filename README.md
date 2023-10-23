@@ -1,16 +1,5 @@
 # Individual Assignment 5
 
-## Submission and Grading Rules
-- There is no limit to the number of submissions before the deadline.
-- Your code will be run through an autograder. Half of the tests will provide feedback on your code, while the other half will only indicate if a test failed without revealing input and expected output details. Make use of the feedback you receive.
-- Do not use any Python libraries or external packages.
-- Solutions to all problems must be submitted in one Python file named `relations.py`. You will receive a template file to use as the basis for your solution.
-- For each problem, correctness of your code counts for 50% of the points, and providing arguments through code comments accounts for the remaining 50%.
-- There are 10 bonus points available, awarded for achieving a full score from the autograder.
-
-## Deadline for East Iceland Students
-*Students in the east of Iceland have a submission deadline on Wednesday, October 25th, at 23:59, adjusted accordingly.
-
 ## Assignment Problems
 ### Problem 1
 #### Part a) Reflexive Relations
