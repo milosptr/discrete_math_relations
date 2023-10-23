@@ -1,10 +1,5 @@
 # Individual Assignment 5
 
-## Assignment Description
-This is the fifth individual assignment. The deadline is Tuesday, October 24th, 2023, at 23:59*. Students are required to submit their solutions in one file named `relations.py` on Gradescope (accessible through Canvas or gradescope.com). This assignment is one of 5 individual assignments, collectively contributing 20% to the final grade, with the lowest grade being dropped.
-
-This assignment combines mathematics and programming. The goal is to help students understand the connection between mathematics and programming by implementing solutions to mathematical problems.
-
 ## Submission and Grading Rules
 - There is no limit to the number of submissions before the deadline.
 - Your code will be run through an autograder. Half of the tests will provide feedback on your code, while the other half will only indicate if a test failed without revealing input and expected output details. Make use of the feedback you receive.
