@@ -1,9 +1,4 @@
 # Individual Assignment 5
-**Course:** T-117-STR1, Strjál stærðfræði I, 2023-3
-**Institution:** Reykjavik University - Department of Computer Science
-**Instructor:** Harpa Guðjónsdóttir
-**Email:** harpagud@ru.is
-**Date:** October 17, 2023
 
 ## Assignment Description
 This is the fifth individual assignment. The deadline is Tuesday, October 24th, 2023, at 23:59*. Students are required to submit their solutions in one file named `relations.py` on Gradescope (accessible through Canvas or gradescope.com). This assignment is one of 5 individual assignments, collectively contributing 20% to the final grade, with the lowest grade being dropped.
