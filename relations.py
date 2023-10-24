@@ -46,7 +46,7 @@ def is_antisymmetric(relation_on_set: list[tuple]) -> bool:
     return True
 
 def is_transitive (relation_on_set: list[tuple]) -> bool:
-    relation_set = set(relation_on_set)
+    relation_set: set = set(relation_on_set)
     # a transitive relation is the one in which if (a, b) and (b, c) are in the relation,
     # then (a, c) is also in the relation
     for (a, b) in relation_set:
@@ -67,7 +67,7 @@ def is_equivalence_relation(defined_set: set, relation_on_set: list[tuple]) -> b
     return False
 
 def composite_relations(relation_R: list[tuple], relation_S: list[tuple]) -> list[tuple]:
-  relation_set = set()
+  relation_set: set = set()
   # looping trough the elements of the relation R
   # and the elements of the relation S
   # if the second element of the tuple of R is equal to the first element of the tuple of S
@@ -88,17 +88,17 @@ def composite_relations(relation_R: list[tuple], relation_S: list[tuple]) -> lis
 # set A = {1, 2, 3, 4, . . . , n}
 def aces_in_relation_a(A: list[int]) -> int:
   # we find the length of the list A
-  n = len(A)
-  aces = 0
+  n: int = len(A)
+  aces: int = 0
 
   # we create a matrix of zeros with the same size of the list A (n x n)
-  matrix = [[0] * n for _ in range(n)]
+  matrix: list[list[int]] = [[0] * n for _ in range(n)]
 
   # because the condition on the relation is set to be
   # R = {(a,b)∣ a = 0} we check if 0 is in the list A
   if 0 in A:
     # if it is, we find the index of 0 in A
-    index_of_zero = A.index(0)
+    index_of_zero: int = A.index(0)
 
     # if such element exists, we set the first element of the matrix to 1
     for i in range(n):
@@ -110,8 +110,8 @@ def aces_in_relation_a(A: list[int]) -> int:
 
 def aces_in_relation_b(A: list[int]) -> int:
   # we find the length of the list A
-  n = len(A)
-  aces = 0
+  n:int  = len(A)
+  aces:int  = 0
 
   # condition on the relation is set to be
   # R = {(a, b) | a = b + 1}
@@ -133,8 +133,8 @@ def aces_in_relation_b(A: list[int]) -> int:
 
 def aces_in_relation_c(A: list[int]) -> int:
   # we find the length of the list A
-  n = len(A)
-  aces = 0
+  n: int = len(A)
+  aces: int = 0
 
   if n == 0:
     return 0
@@ -147,8 +147,8 @@ def aces_in_relation_c(A: list[int]) -> int:
   return aces
 
 def aces_in_relation_d(A: list[int]) -> int:
-  n = len(A)
-  aces = 0
+  n: int = len(A)
+  aces: int = 0
 
   if n == 0:
     return 0
@@ -162,8 +162,8 @@ def aces_in_relation_d(A: list[int]) -> int:
   return aces
 
 def aces_in_relation_e(A: list[int]) -> int:
-  n = len(A)
-  aces = 0
+  n: int = len(A)
+  aces: int = 0
 
   if n == 0:
     return 0
